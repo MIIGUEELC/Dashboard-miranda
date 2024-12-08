@@ -39,27 +39,18 @@ export const SideBar = () => {
         </Logo>
         <LinkContainer>
           <li>
-            
             <MenuLink  to={"/"}><TbLayoutDashboard />Dashboard</MenuLink>
           </li>
-
           <li>
-            
             <MenuLink to={"/rooms"}><TbKey />Rooms</MenuLink>
           </li>
-
           <li>
-            
             <MenuLink to={"/bookings"}><TbCalendarEvent />Bookings</MenuLink>
           </li>
-
           <li>
-           
             <MenuLink to={"/contact"}> <TbMessageCircle />Contact</MenuLink>
           </li>
-
           <li>
-            
             <MenuLink to={"/users"}><MdPersonOutline />Users</MenuLink>
           </li>
         </LinkContainer>
