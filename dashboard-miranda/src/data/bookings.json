@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "orderDate": "2024-12-10",
+      "checkIn": "2024-12-15",
+      "checkOut": "2022-03-16",
+      "specialRequest": "view notes",
+      "room_type": "Deluxe"
+    },
+  
+    {
+        "id": 2,
+        "name": "John Doe",
+        "orderDate": "2024-12-10",
+        "checkIn": "2024-12-15",
+        "checkOut": "2022-03-16",
+        "specialRequest": "view notes",
+        "room_type": "Deluxe"
+    },
+    
+    {
+        "id": 3,
+        "name": "Alice Johnson",
+        "orderDate": "2024-05-01",
+        "checkIn": "2024-05-10",
+        "checkOut": "2024-05-15",
+        "specialRequest": "view notes",
+        "room_type": "Normal"
+    },
+
+    {
+        "id": 4,
+        "name": "John Doe",
+        "orderDate": "2024-12-10",
+        "checkIn": "2024-12-15",
+        "checkOut": "2022-03-16",
+        "specialRequest": "view notes",
+        "room_type": "Deluxe"
+    },
+    
+    {
+        "id": 5,
+        "name": "Alice Johnson",
+        "orderDate": "2024-05-01",
+        "checkIn": "2024-05-10",
+        "checkOut": "2024-05-15",
+        "specialRequest": "view notes",
+        "room_type": "Normal"
+     }
+  
+
+  ]

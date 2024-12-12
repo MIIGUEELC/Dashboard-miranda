@@ -5,7 +5,6 @@ const initialState = {
   currentUser: JSON.parse(localStorage.getItem("currentUser")) || null, 
   loginError: null,
 };
-
 export const loginSlice = createSlice({
   name: "login",
   initialState,

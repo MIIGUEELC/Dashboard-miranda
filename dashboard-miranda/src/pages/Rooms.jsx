@@ -31,19 +31,7 @@ export const ListComponent = () => {
         fetchRooms();
     }, []);
 
-    // Formatear fechas
-    const formatDateHalf1 = (dateString) => {
-        const date = new Date(dateString);
-        const options = { month: "short", day: "numeric", year: "numeric" };
-        let formattedDate = new Intl.DateTimeFormat("en-US", options).format(date);
-        const day = date.getDate();
-        const suffix =
-            day % 10 === 1 && day !== 11 ? "st" :
-            day % 10 === 2 && day !== 12 ? "nd" :
-            day % 10 === 3 && day !== 13 ? "rd" : "th";
-        formattedDate = formattedDate.replace(/\b\d{1,2}\b/, `${day}${suffix}`);
-        return formattedDate;
-    };
+    
 
     const handleNavigate = (id) => {
         navigate(`/room/${id}`);
