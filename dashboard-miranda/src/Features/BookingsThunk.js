@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-
-const BASE_URL = "./src/data"; 
+// Cambia el BASE_URL para apuntar a la carpeta public
+const BASE_URL = "/data"; 
 
 // Obtener todas las reservas
 export const fetchBookings = createAsyncThunk("bookings/fetchBookings", async () => {

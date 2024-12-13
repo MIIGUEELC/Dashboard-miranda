@@ -9,9 +9,10 @@ import {
 
  const initialState = {
   bookings: [], // Lista de reservas
-  selectedBooking: null, // Reserva seleccionada
-  loading: false, // Estado de carga
-  error: null, // Errores
+  selectedBooking: null, 
+  loading: false, 
+  status: 'idle',
+  error: null, 
 };
 
 export const bookingsSlice = createSlice({
@@ -89,7 +90,7 @@ export const bookingsSlice = createSlice({
           (booking) => booking.id === action.payload.id
         );
         if (index !== -1) {
-          state.bookings[index] = action.payload; // Actualizar la reserva en el estado
+          state.bookings[index] = action.payload;
         }
       })
       .addCase(editBooking.rejected, (state, action) => {
